@@ -1,7 +1,7 @@
 from txasr import TencentASR
 import time
 
-asr = TencentASR('','')
+asr = TencentASR('','') #secret things....oh shit
 task_id = asr.send_audio("0006.wav")
 if task_id:
     print('发送录音文件成功，识别任务ID为：', task_id)
